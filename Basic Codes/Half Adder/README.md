@@ -1,6 +1,6 @@
- Running the testbench:
+ ###`Running the testbench`
  ```bash
- $ iverilog -o code_tb.vvp code_tb.v
- $ vvp code_tb.vvp
- $ gtkwave filename.vcd
+ $ iverilog -o halfadder_tb.vvp halfadder_tb.v
+ $ vvp halfadder_tb.vvp
+ $ gtkwave halfadder_tb.vcd
 ```
