@@ -4,12 +4,11 @@
 module prio_encoder4x2_tb();
 wire [1:0] a;
 reg [3:0] y;
-encoder4x2 uut(.y(y), .a(a));
-
+prio_encoder4x2 uut(.y(y), .a(a));
 initial begin
-  $dumpfile("prio_encoder4x2_tb.vcd")
-  $dumpvars(0,encoder4x2_tb);
-  y-0;
+  $dumpfile("prio_encoder4x2_tb.vcd");
+  $dumpvars(0,prio_encoder4x2_tb);
+  y=0;
   #20;
   y=4'b0000;
   #10;

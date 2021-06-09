@@ -1,0 +1,62 @@
+$date
+	Wed Jun 09 20:00:44 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module prio_encoder4x2_tb $end
+$var wire 2 ! a [1:0] $end
+$var reg 4 " y [3:0] $end
+$scope module uut $end
+$var wire 4 # y [3:0] $end
+$var reg 2 $ a [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+b0 "
+bx !
+$end
+#30
+b0 !
+b0 $
+b1 "
+b1 #
+#40
+b1 !
+b1 $
+b10 "
+b10 #
+#50
+b10 !
+b10 $
+b100 "
+b100 #
+#60
+b110 "
+b110 #
+#70
+b11 !
+b11 $
+b1000 "
+b1000 #
+#80
+b1010 "
+b1010 #
+#90
+b1 !
+b1 $
+b11 "
+b11 #
+#100
+b11 !
+b11 $
+b1111 "
+b1111 #
+#110
