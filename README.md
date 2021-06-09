@@ -5,3 +5,4 @@ Clone this repository:
 ```bash
 $ git clone https://github.com/Akshay-Kaushik/Verilog.git
 ```
+ 
