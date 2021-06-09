@@ -5,7 +5,6 @@ reg a;
 reg b;
 wire sum;
 wire carry;
-
 halfadder uut (a,b,sum,carry);
 initial begin
     $dumpfile("halfadder_tb.vcd");
