@@ -10,7 +10,7 @@ barrel_shifter dut(.a(a), .amt(amt), .y(y));
 initial begin 
     $dumpfile("barrel_tb.vcd");
     $dumpvars(0,barrel_tb);
-    a=8'b11001100;
+    a=8'b11000100;
     amt=3'b000;
     #10;
     amt=3'b001;
